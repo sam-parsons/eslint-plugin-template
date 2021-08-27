@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-template",
+  "version": "1.0.0",
+  "description": "template for creating an eslint plugin",
+  "main": "lib/rules/plugin-name.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-parsons/eslint-plugin-template.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "template"
+  ],
+  "author": "Sam Parsons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sam-parsons/eslint-plugin-template/issues"
+  },
+  "homepage": "https://github.com/sam-parsons/eslint-plugin-template#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  }
+}
